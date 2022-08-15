@@ -13,4 +13,4 @@ jobs:
       - name: ZAP Scan
         uses: zaproxy/action-baseline@v0.7.0
         with:
-          target: 'https://www.zaproxy.org'
+          target: '127.0.0.1:8080'
